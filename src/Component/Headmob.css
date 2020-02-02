@@ -1,0 +1,107 @@
+.aside-section {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .aside-left {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    padding: 0 25%;
+    width: 70%;
+    height: 100vh;
+    left: 0;
+    background-color: rgba(47,47,162,1);
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .aside-right {
+    width: 30%;
+    height: 100vh;
+    right: 0;
+    background-color: rgba(47,47,162,1);
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked ~ aside .aside-left {
+    transform: translateY(0%);
+  }
+  
+  input[type="checkbox"]:checked ~ aside .aside-right {
+    transform: translateX(0%);
+  }
+  
+  input[type="checkbox"]:checked ~ label .bar {
+    background-color: #fff;
+  }
+  
+  input[type="checkbox"]:checked ~ label .top {
+    transform: translateY(0px) rotateZ(45deg);
+  }
+  
+  input[type="checkbox"]:checked ~ label .bottom {
+    transform: translateY(-15px) rotateZ(-45deg);
+  }
+  
+  input[type="checkbox"]:checked ~ label .middle {
+    width: 0;
+  }
+  
+  .middle {
+    margin: 0 auto;
+  }
+  
+  label {
+    top: 10px;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 10px;
+    z-index: 3;
+    position: fixed;
+  }
+  
+  .bar {
+    display: block;
+    background-color: #fff;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    margin: 5px auto;
+    transition: background-color 0.4s ease-in, transform 0.4s ease-in,
+      width 0.4s ease-in;
+  }
+
+  .button {
+    display: inline-block;
+    background-image: none;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 7px;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    padding: 7px 50px;
+    border: 2px solid white;
+  }
+  .down-m {
+      text-align: left;
+  }
+  .j-r {
+      border: 1px solid #f64c72;
+      padding: 3px;
+  }
