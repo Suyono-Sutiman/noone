@@ -8,13 +8,13 @@ class Header extends React.Component {
         return (
             <div className='header'>
                 <div className='judul'>
-                    <h2>no<span>[o]</span>ne</h2>
+                   <a href='#home'><h2>no<span>[o]</span>ne</h2></a>
                 </div>
                 <div className='item'>
                     <div className='drop'>
                     <h4>Visi<span>[o]</span>n <FaSortDown className='ico'/></h4>
                     <div className='down'>
-                        <p>Solut<span>[ion]</span>s</p>
+                        <p><a href='#solution'>Solut<span>[ion]</span>s</a></p>
                         <p>Ana<span>[lyt]</span>ics</p>
                         <p>System <span>[Arc]</span>hitecture</p>
                     </div>

@@ -27,7 +27,8 @@ const responsive = {
 class Hero extends React.Component {
     render () {
         return (
-            <div className='container hero'>
+            <div className='container hero' id='home'>
+                <div className='palax-div'><div className='palax'></div></div>
                 <Carousel 
                 responsive={responsive}
                 infinite={true}

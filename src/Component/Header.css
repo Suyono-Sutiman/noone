@@ -78,6 +78,7 @@
 }
 .down-m p {
     margin: 12px 0;
+    font-weight: bold;
 }
 @media (max-width:767px) {
     .item {
@@ -88,4 +89,7 @@
     .mobile {
         display: none;
     }
+}
+.down p {
+    font-weight: bold;
 }

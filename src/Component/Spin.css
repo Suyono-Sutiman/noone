@@ -48,8 +48,9 @@
     justify-content: center;
     position: fixed;
     top: 66px;
-    z-index: 1;
-    opacity: .3;
+    z-index: 5;
+    opacity: 0.3;
+    overflow: hidden;
   }
 
   @keyframes orbit-spinner-orbit-one-animation {
@@ -92,4 +93,52 @@
     .orbit-spinner .orbit:nth-child(3) {
       border-top: 33px solid #000000;
     }
+  }
+
+  .gegga {
+    width: 0;
+  }
+  .snurra {
+    filter: url(#gegga);
+  }
+  .stopp1 {
+    stop-color: #f700a8;
+  }
+  .stopp2 {
+    stop-color: #ff8000;
+  }
+  .halvan {
+    animation: Snurra1 10s infinite linear;
+    stroke-dasharray: 180 800;
+    fill: none;
+    stroke: url(#gradient);
+    stroke-width: 23;
+    stroke-linecap: round;
+  }
+  .strecken {
+    animation: Snurra1 3s infinite linear;
+    stroke-dasharray: 26 54;
+    fill: none;
+    stroke: url(#gradient);
+    stroke-width: 23;
+    stroke-linecap: round;
+  }
+  .skugga {
+    
+    opacity: 0.3;
+    position: absolute;
+    transform: translate(300px, -350px);
+  }
+  @keyframes Snurra1 {
+    0% {
+      stroke-dashoffset: 0;
+    }
+    100% {
+      stroke-dashoffset: -403px;
+    }
+  }
+  .bunder {
+    position: absolute;
+    left: 10%;
+    top: 65%;
   }
