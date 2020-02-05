@@ -11,8 +11,10 @@ function App() {
     <div className="App">
       <Spin/>
       <Header/>
+      <div className='palax-bg'>
       <Hero/>
       <Solution/>
+      </div>
     </div>
   );
 }

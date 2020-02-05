@@ -4,6 +4,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Montserrat', sans-serif;
   color: white;
+  background: #000000;
 }
 
 p, .btn {
