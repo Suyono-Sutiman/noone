@@ -1,0 +1,35 @@
+.overview {
+    position: relative;
+    z-index: 10;
+    background: #1f2833;
+    padding-bottom: 66px;
+    margin-bottom: 66px;
+}
+.o-ti {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.top {
+    align-items: flex-start;
+}
+.o-right {
+    border: 1px solid #66fcf1;
+    display: none;
+}
+@media (min-width:768px) {
+    .o-right {
+        display: block;
+    }
+}
+.o-left {
+    text-align: left;
+    width: 60%;
+}
+.o-left h3 {
+    margin-top: 0;
+}
+.o-center {
+    text-align: right;
+    width: 60%;
+}

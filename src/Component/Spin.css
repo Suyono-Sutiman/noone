@@ -23,21 +23,21 @@
     left: 0%;
     top: 0%;
     animation: orbit-spinner-orbit-one-animation 2s linear infinite;
-    border-bottom: 13px solid #000000;
+    border-bottom: 13px solid #c5c6c7;
   }
 
   .orbit-spinner .orbit:nth-child(2) {
     right: 0%;
     top: 0%;
     animation: orbit-spinner-orbit-two-animation 2s linear infinite;
-    border-right: 13px solid #000000;
+    border-right: 13px solid #c5c6c7;
   }
 
   .orbit-spinner .orbit:nth-child(3) {
     right: 0%;
     bottom: 0%;
     animation: orbit-spinner-orbit-three-animation 2s linear infinite;
-    border-top: 13px solid #000000;
+    border-top: 13px solid #c5c6c7;
   }
 
   .spin {
@@ -48,7 +48,7 @@
     justify-content: center;
     position: fixed;
     top: 66px;
-    z-index: 5;
+    z-index: 1;
     opacity: 0.1;
     overflow: hidden;
   }
@@ -85,12 +85,12 @@
       height: 455px;
     }
     .orbit-spinner .orbit:nth-child(1) {
-      border-bottom: 33px solid #000000;
+      border-bottom: 33px solid #c5c6c7;
     }
     .orbit-spinner .orbit:nth-child(2) {
-      border-right: 33px solid #000000;
+      border-right: 33px solid #c5c6c7;
     }
     .orbit-spinner .orbit:nth-child(3) {
-      border-top: 33px solid #000000;
+      border-top: 33px solid #c5c6c7;
     }
   }

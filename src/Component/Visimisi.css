@@ -1,0 +1,45 @@
+.visimisi {
+    position: relative;
+    z-index: 10;
+    background: #0b0c10;
+}
+.v-card {
+    text-align: left;
+    width: 60%;
+    margin-right: 5%;
+    background: #1f2833;
+    padding: 30px 5px;
+    margin-left: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    z-index: 11;
+}
+@media (min-width:768px) {
+    .v-card {
+        width: 30%;
+        margin-right: 25%;
+        padding: 60px 25px;
+    }
+}
+.quo {
+    float: right;
+}
+.misi {
+    text-align: left;
+    width: 100%;
+    background: #1f2833;
+    position: relative;
+    z-index: 9;
+}
+.m-text {
+    width: 60%;
+    margin-left: 5%;
+    padding-top: 16px;
+}
+.misi::before {
+    display: block;
+    content: " ";
+    margin-top: -132px;
+    height: 132px;
+    visibility: hidden;
+}

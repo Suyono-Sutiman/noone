@@ -1,0 +1,45 @@
+.analytic {
+    text-align: left;
+    background: #1f2833;
+    position: relative;
+    z-index: 9;
+}
+.analytic h3 {
+    padding-left: 16px;
+}
+.analytic::before {
+    display: block;
+    content: " ";
+    margin-top: -66px;
+    height: 66px;
+}
+.analytic::after {
+    display: block;
+    content: " ";
+    height: 66px;
+}
+@media (min-width:1024px) {
+    .analytic::before {
+        margin-top: -86px;
+        height: 86px;
+    }
+    .analytic h3 {
+        padding-left: 86px;
+    }
+}
+.an-in-1 {
+    display: flex;
+    align-items: baseline;
+    padding: 5px;
+}
+.an-img {
+    width: 50%;
+    height: auto;
+}
+@media (min-width:768px) {
+    .an-d-1 {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+}

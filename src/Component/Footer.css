@@ -1,0 +1,31 @@
+.footer {
+    position: relative;
+    z-index: 10;
+    background: #0b0c10;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.contact a {
+    padding-top: 16px;
+}
+.fo-top {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media (min-width:768px) {
+    .fo-top {
+        flex-direction: row;
+    }
+}
+.fo-bot {
+    border-top: 1px solid #66fcf1;
+    margin-top: 16px;
+}
+.fo-bot p {
+    margin-top: 10px;
+}

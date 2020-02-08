@@ -1,0 +1,15 @@
+.visi {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #0b0c10;
+    z-index: 9;
+    padding-bottom: 106px;
+}
+.v-ti {
+    text-align: left;
+    width: 60%;
+    margin-left: 5%;
+    position: sticky;
+    top: 0;
+}

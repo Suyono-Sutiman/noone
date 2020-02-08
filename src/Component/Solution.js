@@ -1,10 +1,10 @@
 import React from 'react';
-import personal1 from '../Image/user.png';
-import personal2 from '../Image/login.png';
-import personal3 from "../Image/return.png";
-import business1 from '../Image/hand-shake.png';
-import business2 from '../Image/online.png';
-import business3 from '../Image/dashboard.png';
+import personal1 from '../Image/online_resume.svg';
+import personal2 from '../Image/personal_site.svg';
+import personal3 from "../Image/online_art.svg";
+import business1 from '../Image/personal_goals.svg';
+import business2 from '../Image/data_trends.svg';
+import business3 from '../Image/business_shop.svg';
 import './Solution.css'
 
 class Solution extends React.Component {

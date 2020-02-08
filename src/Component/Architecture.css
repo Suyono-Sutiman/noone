@@ -1,0 +1,36 @@
+.archi {
+    z-index: 2;
+    padding: 66px 0;
+    position: sticky;
+    top: 0;
+}
+.archi h3 {
+    margin-bottom: 48px;
+}
+.archi-d {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    align-items: baseline;
+}
+.archi-img {
+    width: 50%;
+    height: auto;
+    color: #66fcf1;
+}
+.archi-in {
+    flex: 1;
+}
+@media (min-width:768px) {
+    .archi-img {
+        width: 25%;
+    }
+}
+@media (min-width:1024px) {
+    .archi-img {
+        width: 15%;
+    }
+    .archi-d {
+        margin-bottom: 2.5%;
+    }
+}

@@ -1,6 +1,8 @@
 .hero {
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: 2;
 }
 .fd {
     width: 100%;
@@ -19,37 +21,44 @@
 }
 .fd-img {
     width: 100%;
-    z-index: 50;
-    height: 50vh;
-    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3s both;
+    height: 40vh;
 }
 .arrow-down {
     font-size: 48px;
-    animation: shake-vertical 2.5s ease-in-out infinite both;
-    z-index: 20;
+    animation: shake-vertical 2.5s ease-in-out infinite 26s both;
     margin-top: -20px;
+    color: #66fcf1;
+    opacity: 0;
 }
 @keyframes shake-vertical {
-    0%,
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
     100% {
       transform: translateY(0);
+      opacity: 1;
     }
     10%,
     30%,
     50%,
     70% {
       transform: translateY(-8px);
+      opacity: 1;
     }
     20%,
     40%,
     60% {
       transform: translateY(8px);
+      opacity: 1;
     }
     80% {
       transform: translateY(6.4px);
+      opacity: 1;
     }
     90% {
       transform: translateY(-6.4px);
+      opacity: 1;
     }
 }
 .ani1 {
@@ -90,7 +99,7 @@
 }
 .ani5 {
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -131,14 +140,13 @@
 }
 .ani10 {
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     animation: back-to 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) 22s both;
     position: absolute;
-    top: 90px;
 }
 @keyframes back-to {
     0% {

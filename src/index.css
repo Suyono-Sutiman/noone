@@ -3,54 +3,51 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Montserrat', sans-serif;
-  color: white;
-  background: #000000;
+  color: #c5c6c7;
+  background: #0b0c10;
 }
 
 p, .btn {
   font-size: min(max(14px, 4vw),16px);
   font-weight: 300;
-  z-index: 500;
 }
 
 h1 {
   font-size: min(max(32px, 4vw),48px);
   font-weight: 700;
-  z-index: 500;
 }
 
 h2 {
   font-size: min(max(26px, 4vw),36px);
   font-weight: 700;
   margin: 0px;
-  z-index: 500;
 }
 
 h3 {
   font-size: min(max(22px, 4vw),28px);
   font-weight: bold;
-  z-index: 500;
 }
 
 h4 {
-  font-size: min(max(16px, 4vw),18px);
+  font-size: min(max(14px, 4vw),18px);
   font-weight: bold;
   margin: 0px;
-  z-index: 500;
 
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #c5c6c7;
   z-index: 5000;
 }
 
 span {
-  color: #f64c72;
-  z-index: 500;
+  color: #66fcf1;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+html {
+  scroll-behavior: smooth;
 }

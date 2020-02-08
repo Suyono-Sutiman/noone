@@ -15,19 +15,17 @@ class Headmob extends React.Component {
                     <div className="aside-section aside-left">
                     <div className='down-m'>
                         <p><a href='#solution'>Solut<span>[ion]</span>s</a></p>
-                        <p>Ana<span>[lyt]</span>ics</p>
-                        <p>System <span>[Arc]</span>hitecture</p>
+                        <p><a href='#analytic'>Ana<span>[lyt]</span>ics</a></p>
+                        <p><a href='#architecture'><span>[Arc]</span>hitecture</a></p>
                     </div>
                     <div className='down-m'>
-                        <p>Over<span>[view]</span></p>
-                        <p>Vision<span>[&]</span>Mision</p>
-                        <p>Milest<span>[one]</span></p>
+                        <p><a href='#overview'>Over<span>[view]</span></a></p>
+                        <p><a href='#visimisi'>Vision<span>[&]</span>Mision</a></p>
                     </div>
                     <div className='down-m'>
-                        <p>Doc<span>[u]</span>mentation</p>
-                        <p>F<span>[A]</span>Q</p>
+                        <p><a href='#contact'>Doc<span>[u]</span>mentation</a></p>
                     </div>
-                    <h4>Cont<span>[act]</span></h4>
+                        <h4><a href='#contact'>Cont<span>[act]</span></a></h4>
                     </div>
                     <div className="aside-section aside-right">
                     <a href='#home'>
